@@ -19,6 +19,9 @@ int main() {
 	s2.Print();
 	s3.Print();
 
+	String s4 = s3*s1;
+	s4.Print();
+
 	delete[]str;
 	return 0;
 }
